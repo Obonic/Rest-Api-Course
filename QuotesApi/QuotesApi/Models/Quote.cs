@@ -9,10 +9,10 @@ namespace QuotesApi.Models
     {
         public int ID { get; set; }
 
-        public int Title { get; set; }
+        public String Title { get; set; }
 
-        public int Author { get; set; }
+        public String Author { get; set; }
 
-        public int Description { get; set; }
+        public String Description { get; set; }
     }
 }
